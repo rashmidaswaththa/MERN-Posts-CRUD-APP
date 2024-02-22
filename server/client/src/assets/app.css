@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply w-8 h-8 rounded-md hover:bg-indigo-600 grid place-items-center
+    }
+    .card {
+        @apply bg-white rounded-lg shadow-lg px-6 py-10 max-w-screen-lg mx-auto
+    }
+    .title {
+        @apply font-bold mb-8 text-2xl text-center
+    }
+    .input {
+        @apply block w-full rounded-lg placeholder:text-sm p-2 border-0 outline-0 ring-1 ring-indigo-500 focus:ring-2 mb-4
+    }
+    .btn {
+        @apply block w-full rounded-lg bg-indigo-500 text-white font-bold p-2 active:bg-indigo-300 active:text-black
+    }
+    .post-title {
+        @apply  text-blue-950 font-bold text-xl mb-1
+    }
+    .post-body {
+        @apply text-gray-600 text-sm mt-6
+    }
+    .profile-card {
+        @apply  bg-gray-100 rounded-lg shadow-lg px-6 py-4 max-w-screen-lg mx-auto mb-3
+    }
+}
